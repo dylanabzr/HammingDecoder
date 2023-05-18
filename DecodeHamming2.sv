@@ -1,4 +1,3 @@
-// Write your modules here!
 module FourParity(input logic[4:1] d, output logic p);
   assign p = ((d[1] ^ d[2]) ^ d[3]) ^ d[4];
 endmodule
